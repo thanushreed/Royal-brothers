@@ -32,7 +32,29 @@ body {
 .topnav .icon {
   display: none;
 }
+.mySlides {display:none; }
 
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {

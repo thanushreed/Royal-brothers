@@ -5,6 +5,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="stylesheet/project.css" type="text/css" media="screen"/>
  <link rel="stylesheet" href="project.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
  <style>
 .button {
   background-color: black;
@@ -51,5 +54,92 @@
   <button class="button">Login</button>
 
 </div></div>
+<div class="w3-content w3-section" style="max-width:1500px">
+  <img class="mySlides" src="images/slide1.jpg" style="width:100%">
+  <img class="mySlides" src="images/slide2.jpg" style="width:100%">
+
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+<div class="w3-container w3-grey">
+  <div class="row">
+    <div class="column" style="background-color:#aaa;">
+      <h2>40+</h2>
+      <p>Cities</p>
+    </div>
+    <div class="column" style="background-color:#bbb;">
+      <h2>5M</h2>
+      <p>Kilometers</p>
+    </div>
+    <div class="column" style="background-color:#ccc;">
+      <h2>4.6*</h2>
+      <p>on facebook</p>
+    </div>
+    <div class="column" style="background-color:#ddd;">
+      <h2>4.5*</h2>
+      <p>on Google</p>
+    </div>
+  </div>
+</div>
+<div>
+  <center><h2><b>OUR SPECIALITY</b></h2></center>
+  <center>
+  <div class="row">
+    <div class="column" style="background-color:white;">
+      <h1 style="color:yellow"><b>1</h1><h6>First RTO Authorized bike rental<h6></b>
+        <h6 style="color:grey">Pioneers in renting out bikes legally in<p>Karnataka</h6>
+    </div>
+    <div class="column" style="background-color:white;">
+      <h1 style="color:yellow"><b>2</h1><h6>Bikes in top notch conditions<h6></b>
+        <h6 style="color:grey">Each bike is cleaned and serviced weekly<p>and also once before renting out</h6>
+    </div>
+    <div class="column" style="background-color:white;">
+      <h1 style="color:yellow"><b>3</h1><h6>Timely pick up and drop off<h6></b>
+        <h6 style="color:grey">If we delay even by 15mins,Rs25 on<p>Scooter and Rs50 on bikes will be refunded</h6>
+    </div>
+    <div class="column" style="background-color:white;">
+      <h1 style="color:yellow"><b>4</h1><h6>Home delivery on weekdays*<h6></b>
+        <h6 style="color:grey">Now avail our service and get the key to<p>happiness at your doorstep</h6>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column" style="background-color:white;">
+      <h1 style="color:yellow"><b>5</h1><h6>Commercial insurance is covered<h6></b>
+        <h6 style="color:grey">We have a valid commercial insurance<p>for the rider,pilion and third party</h6>
+    </div>
+    <div class="column" style="background-color:white;">
+      <h1 style="color:yellow"><b>6</h1><h6>Most trusted & transparent process<h6></b>
+        <h6 style="color:grey">We are upfront about the entire process<p>of renting a bike from us</h6>
+    </div>
+    <div class="column" style="background-color:white;">
+      <h1 style="color:yellow"><b>7</h1><h6>19 pickup locations in bangalore<h6></b>
+        <h6 style="color:grey">There are good chances you will find us <p>in 3km radius from your location</h6>
+    </div>
+    <div class="column" style="background-color:white;">
+      <h1 style="color:yellow"><b>8</h1><h6>Choose from a wide variety of bikes<h6></b>
+        <h6 style="color:grey">Pick a bike that suits your need from<p>scooters to siperbikes</h6>
+    </div>
+  </div>
+</center>
+<div class="w3-container w3-grey">
+  <center><h2><b>OUR FLEET</b></h2></center>
+  
+
 </body>
 </html>
